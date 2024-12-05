@@ -1,6 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 
 
+
+      /* Botón general */
+      button {
+          background-color: #007BFF; /* Azul */
+          color: white; /* Texto blanco */
+          border: none;
+          padding: 12px 24px; /* Espaciado interno */
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 8px; /* Bordes redondeados */
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+          transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+      }
+
+      /* Efecto al pasar el mouse por el botón */
+      button:hover {
+          background-color: #0056b3; /* Azul más oscuro */
+          transform: scale(1.05); /* Ligero aumento */
+      }
+
+      /* Botón centrado aparte */
+      .separate-button {
+          text-align: center;
+          margin-top: 40px;
+      }
+
 #TituloPrincipal{
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
